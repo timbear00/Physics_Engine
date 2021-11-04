@@ -1,9 +1,20 @@
+Mover m;
+float mass;
+
 void setup() {
-  size(400, 400);
-  background(255);
+  size(500, 500);
+  mass = 10;
+  m = new Mover(width/2, 50, mass);
+  
+  
 }
 
 void draw() {
-  ellipse(mouseX, mouseY, 50, 50);
-    
+  background(255);
+  
+  PVector gravity = new PVector(0, 1);
+
+  m.applyForce(gravity);
+  m.update();
+  m.display();
 }

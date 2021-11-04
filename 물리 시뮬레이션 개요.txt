@@ -10,3 +10,14 @@
 	- Git + Github 이용하여 버전관리 => 웹 호스팅까지
 	- 잘 되면 도메인도 하나 살 계획
 4. 계획서, 일지 작성하기
+
+
+
+
+
+-----------------
+박종화T Github : 
+https://github.com/suakii/2017AjouCamp
+https://github.com/suakii/20170826Ajoj
+https://github.com/suakii/20170923Ajou
+https://github.com/suakii/20171021Ajou
