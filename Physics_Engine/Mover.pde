@@ -17,8 +17,11 @@ class Mover {
     }
 
     void update() {
-        velocity.add(acceleration);
-        position.add(velocity);
+        velocity.add( PVector.div(acceleration, frameRate) );         //Delta Time 적용
+        position.add( velocity );
+
+        println("Frame: "+ frameCount + velocity );
+
         acceleration.mult(0);
     }
 
@@ -26,7 +29,7 @@ class Mover {
         stroke(0);
         strokeWeight(2);
         fill(127);
-        ellipse(position.x, position.y, 48, 48);
+        ellipse(position.x, position.y, 50, 50);
     }
 
 }
