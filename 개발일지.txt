@@ -7,3 +7,13 @@ https://okky.kr/article/562908
 문제점
 개선 방안
 앞으로 할 일
+
+[2021/11/04]
+오늘 한 일 :
+- VSCode + Processing 설정
+- Mover class 제작
+- 기본적으로 물체에 힘을 가하는 것 완성
+
+앞으로 할 일 : 
+- deltaTime + frameRate 이용하여 현실 시간과 일치하도록
+- 물체에 힘을 가하는 방법 추가
