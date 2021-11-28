@@ -80,9 +80,11 @@ void keyPressed() {
 }
 
 void mousePressed() {
-  float distance = dist(mouseX, mouseY, radius/2 + 50, height-(radius/2));    // Object와 마우스 사이의 거리 측정
+  if ( mode==2) {
+    float distance = dist(mouseX, mouseY, radius/2 + 50, height-(radius/2));    // Object와 마우스 사이의 거리 측정
 
-  if ( mouseButton == LEFT && distance <= radius && m.position.x==(radius/2 + 50) ) obj_cliked = true;
+    if ( mouseButton == LEFT && distance <= radius && m.position.x==(radius/2 + 50) ) obj_cliked = true;
+  }
 }
 
 void mouseReleased() {
